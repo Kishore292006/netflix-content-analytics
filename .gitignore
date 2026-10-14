@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.ipynb_checkpoints/
+.env
+.DS_Store
+Thumbs.db
+# IDE settings
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local datasets
+data/raw/*.csv
+data/processed/*.csv
