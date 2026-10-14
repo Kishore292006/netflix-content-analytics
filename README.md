@@ -25,7 +25,7 @@ The project follows a structured analytics workflow, from raw data preparation t
 
 ## Project Structure
 
-```text id="h4rj2v"
+```text
 Netflix_Content_Analytics/
 ├── data/
 │   ├── processed/
@@ -96,17 +96,17 @@ The project implements an end-to-end analytics workflow using Python and Power B
 
 | Technology | Purpose |
 |---|---|
-| **Python** | Data cleaning, validation, and analysis |
-| **Pandas** | Data manipulation, missing-value handling, and aggregation |
-| **NumPy** | Handling missing values during data correction |
-| **Matplotlib** | Data visualization during exploration |
-| **Seaborn** | Statistical data visualization and EDA |
-| **Jupyter Notebook** | Interactive data exploration and experimentation |
-| **Power BI Desktop** | Interactive dashboard creation and reporting |
-| **PyCharm** | Python development and project organization |
-| **Git** | Version control |
-| **GitHub** | Source code hosting and portfolio presentation |
-| **Markdown** | Project documentation in README.md |
+| Python | Data cleaning, validation, and analysis |
+| Pandas | Data manipulation, missing-value handling, and aggregation |
+| NumPy | Handling missing values during data correction |
+| Matplotlib | Data visualization during exploration |
+| Seaborn | Statistical data visualization and EDA |
+| Jupyter Notebook | Interactive data exploration and experimentation |
+| Power BI Desktop | Interactive dashboard creation and reporting |
+| PyCharm | Python development and project organization |
+| Git | Version control |
+| GitHub | Source code hosting and portfolio presentation |
+| Markdown | Project documentation in README.md |
 
 ## Project Workflow
 
@@ -205,54 +205,59 @@ The notebooks document the exploration process, while the `src/` modules provide
 
 ## Installation and Setup
 
-### 1. Clone the repository
+### Prerequisites
 
-```bash id="y2z0vr"
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd Netflix_Content_Analytics
+- Python installed on your system
+- Git
+- Jupyter Notebook or JupyterLab
+- Microsoft Power BI Desktop to open the dashboard
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Kishore292006/netflix-content-analytics.git
+cd netflix-content-analytics
 ```
 
-Replace the placeholder with your actual GitHub repository URL.
+### 2. Create a Virtual Environment
 
-### 2. Create a virtual environment
-
-```bash id="f6wk33"
+```bash
 python -m venv .venv
 ```
 
-Activate it on Windows:
+Activate it on Windows PowerShell:
 
-```bash id="w4i0kx"
-.venv\Scripts\activate
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
-```bash id="z4r6gv"
+```bash
 pip install -r requirements.txt
 ```
 
-### 4. Prepare the dataset
+### 4. Prepare the Dataset
 
 Place the raw Netflix dataset at:
 
-```text id="u0h44w"
+```text
 data/raw/netflix_titles.csv
 ```
 
 The Python scripts expect the raw CSV file at this location.
 
-### 5. Run the project
+### 5. Run the Project
 
 From the project root, execute:
 
-```bash id="ve7d4w"
+```bash
 python src/main.py
 ```
 
 The program cleans and validates the raw dataset, saves the processed CSV, and displays the analysis summaries in the terminal.
 
-### 6. Open the Power BI dashboard
+### 6. Open the Power BI Dashboard
 
 Open `powerbi/Netflix_Content_Analytics.pbix` using Microsoft Power BI Desktop.
 
@@ -290,5 +295,9 @@ The findings describe catalog metadata, not actual viewer preferences or commerc
 B.Tech — Computer Science and Engineering (AI & Machine Learning)  
 GD Goenka University
 
-- **GitHub:** [Kishore292006](https://github.com/Kishore292006)
+- **GitHub:** [Netflix Content Analytics](https://github.com/Kishore292006/netflix-content-analytics)
 - **LinkedIn:** [Kishore Mattapalli](https://www.linkedin.com/in/mattapalli-kishore-74a134410/)
+
+---
+
+*This project was developed as part of my data analytics portfolio to demonstrate practical skills in Python, data cleaning, exploratory data analysis, business metrics, and Power BI dashboard development.*
