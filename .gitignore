@@ -13,7 +13,3 @@ Thumbs.db
 # Python cache
 __pycache__/
 *.py[cod]
-
-# Local datasets
-data/raw/*.csv
-data/processed/*.csv
